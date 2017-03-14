@@ -35,6 +35,13 @@
                  <input type="submit" value="Take me to the future" name="subscribe" id="mc-embedded-subscribe" class="button">
               </div>
           </form>
+
+          <ul>
+            <li><span class="screen-reader-text">Follow in Twitter: </span><a href="https://twitter.com/thatgeekyblog" class="twitter"><?php echo file_get_contents( 'svg/twitter.svg' ); ?></a></li>
+            <li><span class="screen-reader-text">Like in Facebook: </span><a href="https://www.facebook.com/thatgeekyblog" class="facebook"><?php echo file_get_contents( 'svg/facebook.svg' ); ?></a></li>
+            <li><span class="screen-reader-text">Follow in Google+: </span><a href="https://plus.google.com/u/3/b/114177289834603897205/114177289834603897205" class="googleplus"><?php echo file_get_contents( 'svg/google-plus.svg' ); ?></a></li>
+          </ul>
+
           </div>
           <!--End mc_embed_signup-->
         </div><!-- .container -->
